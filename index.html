@@ -3,26 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Hollow Echoes — Night Survival / Investigation</title>
+  <title class="cursor-shadow">The Hollow Echoes — Night Survival / Investigation</title>
   <meta name="description" content="Echoes of the Hollow — a tense hybrid horror game (survival + point-and-click). Prototype built in Unity." />
   <link rel="icon" type="image/png" href="assets/images/logo.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+  <div class="vignette">
   <main class="site-wrap">
     <header class="site-header">
       <div class="brand">
         <img src="assets/images/logo.png" alt="The Hollow Echoes — logo" class="logo"/>
         <div class="titles">
-          <h1>The Hollow Echoes</h1>
+          <h1 class="crt-hover">The Hollow Echoes</h1>
           <p class="tag">Survive the night. Recover the memory. Choose the truth.</p>
         </div>
       </div>
       <nav class="top-nav">
-        <a href="#about">About</a>
-        <a href="#gameplay">Gameplay</a>
-        <a href="#mvp">MVP</a>
-        <a href="#download">Download</a>
+        <a class="cursor-shadow" href="#about">About</a>
+        <a class="cursor-shadow" href="#gameplay">Gameplay</a>
+        <a class="cursor-shadow" href="#mvp">MVP</a>
+        <a class="cursor-shadow" href="#download">Download</a>
       </nav>
     </header>
 
@@ -46,44 +47,44 @@
     </section>
 
     <section id="about" class="panel">
-      <h3>About the game</h3>
-      <p>The Hollow Echoes blends tense real-time survival windows with deliberate point-and-click investigation. Manage cameras, conserve power, and piece together fractured memory fragments to uncover the facility's true purpose.</p>
+      <h3 class="cursor-shadow">About the game</h3>
+      <p class="cursor-shadow">The Hollow Echoes blends tense real-time survival windows with deliberate point-and-click investigation. Manage cameras, conserve power, and piece together fractured memory fragments to uncover the facility's true purpose.</p>
       <ul class="features">
-        <li><strong>Genres:</strong> Horror, Sci-fi, Mystery</li>
-        <li><strong>Core loop:</strong> Survive → Investigate → Recover memories → Choose</li>
-        <li><strong>Perspective:</strong> First-person survival + fixed investigation scenes</li>
+        <li class="cursor-shadow"><strong>Genres:</strong> Horror, Sci-fi, Mystery</li>
+        <li class="cursor-shadow"><strong>Core loop:</strong> Survive → Investigate → Recover memories → Choose</li>
+        <li class="cursor-shadow"><strong>Perspective:</strong> First-person survival + fixed investigation scenes</li>
       </ul>
     </section>
 
     <section id="gameplay" class="panel split">
       <div class="col">
-        <h3>Gameplay systems</h3>
-        <ol>
-          <li><strong>Camera & power system</strong> — toggle cameras, listen for mechanical cues, balance door/light usage with limited energy.</li>
-          <li><strong>Enemies</strong> — animatronic stalkers and psychological Echo events with unique behaviors.</li>
-          <li><strong>Point-and-click scenes</strong> — click hotspots, combine items, and unlock memory fragments between nights.</li>
+        <h3 class="cursor-shadow">Gameplay systems</h3>
+        <ol class="cursor-shadow">
+          <li class="cursor-shadow"><strong>Camera & power system</strong> — toggle cameras, listen for mechanical cues, balance door/light usage with limited energy.</li>
+          <li class="cursor-shadow"><strong>Enemies</strong> — animatronic stalkers and psychological Echo events with unique behaviors.</li>
+          <li class="cursor-shadow"><strong>Point-and-click scenes</strong> — click hotspots, combine items, and unlock memory fragments between nights.</li>
         </ol>
       </div>
       <div class="col">
-        <h3>Design goals</h3>
-        <p>Minimal UI, atmospheric lighting, and tight loops that deliver suspense. Diegetic interfaces (tablet/camera) whenever possible to keep HUD clutter low.</p>
+        <h3 class="cursor-shadow">Design goals</h3>
+        <p class="cursor-shadow">Minimal UI, atmospheric lighting, and tight loops that deliver suspense. Diegetic interfaces (tablet/camera) whenever possible to keep HUD clutter low.</p>
       </div>
     </section>
 
     <section id="mvp" class="panel">
-      <h3>Minimum Viable Prototype</h3>
-      <ul>
-        <li>Single night loop with one animatronic (patrol + chase)</li>
-        <li>3-camera network with power consumption</li>
-        <li>One investigation room + 2-item puzzle</li>
-        <li>One memory fragment and one Echo hallucination event</li>
+      <h3 class="cursor-shadow">Minimum Viable Prototype</h3>
+      <ul class="cursor-shadow">
+        <li class="cursor-shadow">Single night loop with one animatronic (patrol + chase)</li>
+        <li class="cursor-shadow">3-camera network with power consumption</li>
+        <li class="cursor-shadow">One investigation room + 2-item puzzle</li>
+        <li class="cursor-shadow">One memory fragment and one Echo hallucination event</li>
       </ul>
       <p class="muted">Prototype built in Unity using Visual Scripting (recommended). Renderer: URP. Use Cinemachine for camera transitions.</p>
     </section>
 
     <section id="download" class="panel">
-      <h3>Get the prototype</h3>
-      <p>Prototype builds and source will be available in the GitHub repository — check the README below for build instructions and GitHub Pages link.</p>
+      <h3 class="cursor-shadow">Get the prototype</h3>
+      <p class="cursor-shadow">Prototype builds and source will be available in the GitHub repository — check the README below for build instructions and GitHub Pages link.</p>
       <div class="download-grid">
         <a class="btn primary" href="#">Windows build (coming)</a>
         <a class="btn ghost" href="#">Unity project (coming)</a>
@@ -92,7 +93,7 @@
 
     <footer class="site-footer">
       <div class="meta">
-        <p>Made by SupGamerNL (Jelle) • Prototype & concept © 2025</p>
+        <p class="cursor-shadow">Made by SupGamerNL (Jelle) • Prototype & concept © 2025</p>
       </div>
       <div class="links">
         <a href="#readme">README</a> — <a href="#license">License</a>
@@ -102,5 +103,7 @@
   
     <!-- SCRIPTS -->
   <script src="assets/js/anim.js"></script>
+  <script src="assets/js/ambient.js"></script>
+  </div>
 </body>
 </html>
